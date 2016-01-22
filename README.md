@@ -2,6 +2,6 @@
 
 ![](http://i66.tinypic.com/2uikpic.jpg)
 
-Name:
+Name: Sharath Kumar Dayal 
 
-Email:
+Email: sharath4343@gmail.com
