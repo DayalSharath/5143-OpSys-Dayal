@@ -4,8 +4,6 @@
 
 #!/bin/sh
 i=1
-
-
 echo "File Name: $0"     #To display the filename/scriptname
 
 #Passing requried number of arguments and i is used to display argument number 
