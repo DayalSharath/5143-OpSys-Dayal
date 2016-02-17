@@ -1,7 +1,9 @@
 # Chapter 2 Review Questions
-# Name: Sharath Kumar Dayal
-# Course: 5143 Operating Systems
-# Date: 17 Feb 2016
+Name: Sharath Kumar Dayal
+
+Course: 5143 Operating Systems
+
+Date: 17 Feb 2016
 
 ## Question 1. What are three objectives of an OS design?
 An operating system is a software that runs on the computer. It manages the computer's memory, processes, and all of its software and hardware i.e., it acts as an interface between applications and the computer hardware.  
