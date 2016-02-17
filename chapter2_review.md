@@ -10,7 +10,7 @@ The three objectives of OS are:
  • Efficiency: An OS allows the computer system resources to be used in an efficient manner. Super computers and mainframe computers mainly focus on efficiency than convenience.
  • Ability to evolve: An existing OS should be constructed in such a way that it should support the new system functions without interfering with service.
 
-Question 2. What is the kernel of an OS?
+## Question 2. What is the kernel of an OS?
 Kernel is the part of the operating system that loads first, and it remains in main memory, so it should be as small as possible. The kernel is the central module of an operating system (OS).
 The kernel code is usually loaded into a protected area of memory to prevent it from being overwritten by programs or other parts of the operating system.
 The kernel performs its tasks, such as executing processes and handling interrupts, in kernel space,
