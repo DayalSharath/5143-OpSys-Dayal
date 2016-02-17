@@ -29,10 +29,10 @@ We can also think of a process as an entity that consists of a number of element
 
 ##  Question 5. How is the execution context of a process used by the OS?
 The execution context of a process used by the OS is also known as "process states" i.e., explaining about the different states that a program undergoes from starting to ending. There are different models to explain this.
-a. Two - state process model:
+# a. Two - state process model:
 Not running state:  When the OS creates a new process, it creates a process control block for the process and new process will be in not running state.
 Running state: A process which is already under execution occupies some memory of OS, then the process is said to be in running state.
-b. Five - state process model:
+# b. Five - state process model:
 New State: A process which is created but not started execution will be in new state. Process control block will be created for a process in new state but it is not loaded into main memory.
 Ready state: The process is prepared to execute when given the opportunity.
 Running state: A process which is currently being executed will be in running state.
