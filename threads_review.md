@@ -72,13 +72,11 @@ If join statements are commented and press Ctrl-C before the program terminates,
 
 After running Threads4.py, a new race condition occurs which is more complex when compared to the one that occured after Threads2.py. This is happened because of commenting the lock.acquire and lock.release methods.
 
+Also sharedNumber will never become 1 and prints the statement print 'A: that was weird' same with threadB.
+
 Code because of which more complex race condition occurs:
 
-def run(self):
 
-        global sharedNumber
-        
-        for k in xrange(10000000):
         
             #self.lock.acquire()
             
@@ -90,12 +88,6 @@ def run(self):
             
             #self.lock.release()
         
-        print 'Goodbye from thread A'
-        
-
-if the state is unlocked: a call to acquire() changes the state to locked.
-
-if the state is unlocked: a call to release() raises a RuntimeError exception.
 
 
 #### Question6: Does uncommenting the lock operations clear up the problem in question 5?
